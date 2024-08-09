@@ -20,9 +20,13 @@ public class Main {
 
     public static void main(String[] args) {
         Product p= new Product();
-        p.product(10,25);
-        p.product(10,12,4);
-        p.product(2.4,5.3);
+        int a=p.product(10,25);
+        int b=  p.product(400,40,40);
+      double c=p.product(2.4,5.3);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+
 
 
     }
